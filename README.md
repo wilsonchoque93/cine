@@ -1,6 +1,6 @@
 # cine
 
-//if user click verification code submit button
+
     if(isset($_POST['check'])){
         $_SESSION['info'] = "";
         $otp_code = mysqli_real_escape_string($con, $_POST['otp']);
