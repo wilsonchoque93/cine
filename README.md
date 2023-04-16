@@ -24,5 +24,5 @@
             }
         }else{
             $errors['otp-error'] = "You've entered incorrect code!";
-        }
+        } 
     }
